@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      background-image: url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+
+    .passive {
+      background-color: #000;
+      list-style: none;
+      overflow: visible;
+    }
+
+    a {
+      float: left;
+      text-decoration: none;
+      list-style: none;
+      display: block;
+      padding-right: 50px;
+      padding-bottom: 12px;
+      padding-left: 36px;
+      margin: 1px;
+      color: white;
+      border-right: 1px solid;
+    }
+
+    .active a {
+      color: aliceblue;
+    }
+
+    a:hover {
+      background-color: aqua;
+    }
+
+    p {
+      font-size: 25px;
+    }
+
+    .center {
+      color: blue;
+    }
+
+    li {
+      font-size: 25px;
+    }
+
+    .active li {
+      list-style: none;
+    }
+
+    .footer {
+      background-color: rgba(1, 12, 14, 0.888);
+      height: 200px;
+      color: aqua;
+      text-align: left;
+      padding-top: 10px;
+    }
+
+    a {
+      color: rgb(212, 227, 229);
+    }
+
+    .dropbtn {
+      background-color: #000;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      font-size: 24px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 8px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 16px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    footer {
+      margin-bottom: 1px;
+    }
+
+    .footer-basic {
+      overflow: hidden;
+      height: 400px;
+      padding-top: px;
+      background-color: #000;
+      color: #dfe6d8;
+      text-decoration: none;
+    }
+
+    .footer-basic ul {
+      padding: 0;
+      list-style: disc;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+
+    .footer-basic li {
+      padding: 0 10px;
+      text-align: right;
+      text-decoration: none;
+    }
+
+    .footer-basic ul a {
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.8;
+      text-align: right;
+
+    }
+
+    .footer-basic ul a:hover {
+      opacity: 1;
+      text-align: right;
+    }
+
+    .footer-basic .social {
+      padding-bottom: 250px;
+    }
+
+    .footer-basic .social>a {
+      font-size: 44px;
+      text-align: center;
+      margin: 8px;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .footer-basic .social>a:hover {
+      opacity: 0.9;
+      text-align: right;
+      text-decoration: none;
+    }
+
+
+    .footer-basic .copyright {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+      margin-bottom: 0;
+    }
+  </style>
+
+</head>
+<title>
+  CodeZen
+  - By Capativators
+</title>
+
+<body>
+  <p class="center" align='center'><b>
+      CodeZen<br>
+      - By Capativators</b></p>
+  <ul class="passive">
+    <li class="active">
+      <P align='right'><a href="#">HOME</a></P>
+    </li>
+    <li class="active">
+      <P align='right'><a href="http://127.0.0.1:5500/About_Us.html">ABOUT</a></P>
+    </li>
+    <li class="active">
+      <P align='right'><a href="http://127.0.0.1:5500/Contact.HTML">CONTACT US</a></P>
+      <div class="dropdown">
+        <button class="dropbtn">OUR CLUB</button>
+        <div class="dropdown-content">
+          <a href="#">Photopedia</a>
+          <a href="#">SocializeLives</a>
+          <a href="#">ArtisticDots</a>
+        </div>
+      </div>
+  </ul>
+
+  <p align="center">Welcome to our club, geeks</p>
+  <P align='left'>VISION :)</P>
+  <p>Our Vision is to promote excellence in Computer Science and Information Technology education and overall practice.
+    Advance the development and exchange of relevant knowledge. Gain technical and collaborative skills to design
+    real-life projects.
+    Be a forum for interaction among students of the institute. </p>
+
+  <p align='left'>OBJECTIVE :)</p>
+  <p>
+    <li class="active"> Students to learn and practice programming in thier area of interest for placement potential.
+    </li>
+    </ul>
+    <li>To acquire the skill of solving problems by considering different required point of view.</li>
+    <li>The ability among students to work as individual and in group during projects.</li>
+  </p>
+
+  <div class="footer-basic">
+    <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/captivators_csit/""><i class=" icon ion-social-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/captivators-csit-club-380b2324a/"><i
+            class="icon ion-social-linkedin"></i></a>
+        <a href="https://captivators.vercel.app/""><i class=" icon ion-social-twitter"></i></a>
+        <a href="https://www.facebook.com/people/Captivators-Csit/100085247440991/"><i
+            class="icon ion-social-facebook"></i></a>
+      </div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Home</a></li>
+        <li class="list-inline-item"><a href="#">Our Other Club</a></li>
+        <li class="list-inline-item"><a href="#">About</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">CodeZen © 2018</p>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

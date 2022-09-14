@@ -1,0 +1,32 @@
+<style>
+        ul {
+          list-style-type: none;
+          margin: 10;
+          padding: 10;
+          background-color: #000;
+        }
+        
+        li {
+          display: inline;
+        }
+</style>        
+<p>Welcome to our club</p>
+<P align='left'>VISION</P>
+<p>Our Vision is to promote excellence in Computer Science and Information Technology education and overall practice.
+    Advance the development and exchange of relevant knowledge. Gain technical and collaborative skills to design real-life projects.
+Be a forum for interaction among students of the institute.  </p>
+
+<p align ='left'>OBJECTIVE</p>
+<p><ul><li> Students to learn and practice programming in thier area of interest for placement potential.</li></ul>
+<ul><li>To acquire the skill of solving problems by considering different required point of view.</li></ul>
+<ul><li>The ability among students to work as individual and in group during projects.</li></ul></p>
+
+
+<div class="footer">
+    <a href="https://www.instagram.com/captivators_csit/">INSTAGRAM</a>
+    <a href="https://captivators.vercel.app/">OFFICAL WEBSITE</a>
+    <a href="https://www.linkedin.com/in/captivators-csit-club-380b2324a/">LINKEDIN</a> 
+    <a href="https://codezen-webathon.devpost.com/">HACKATHON</a>
+</div>
+</body>
+</html>
